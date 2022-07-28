@@ -5,7 +5,6 @@ import { connectWithStore } from "../store";
 import { TextInputMask, MaskService } from "tp-react-web-masked-text";
 import Parcela from "../components/parcelamentos/Parcela";
 import SheetLoading from "../components/SheetLoading";
-import ListHeader from "../components/ListHeader";
 
 const ParcelamentoManual = ({ taxas }) => {
   const [taxasArray, setTaxasArray] = useState([]);
