@@ -11,7 +11,7 @@ const App = () => (
       <BrowserRouter>
         <Switch>
           {/* Rota pra redirecionar pro site principal */}
-          <Route path="/" exact component={() => { window.location.href = 'http://www.lojinhaimportados.com'; }} />
+          <Route path="/" exact component={ParcelamentoManual} />
 
           {/* Rota pra exibir a lista de produtos */}
           <Route

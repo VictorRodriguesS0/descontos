@@ -1,5 +1,5 @@
 export const colors = {
-  roxo: '#5d36ab',
+  roxo: '#8340ff',
   roxoEscuro: '#462783',
   roxoClaro: '#dbbdf7',
   amarelo: '#ffdf4b',

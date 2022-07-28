@@ -2,8 +2,8 @@ const fetch = require('node-fetch')
 const XLSX = require('xlsx');
 
 const getInfo = async () => {
-  var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRWT5i-d5IygDEIk69ttCXrkllWz3kEaeNhnZfyd0J3xrU9xlQTTzjunNgPHmSBzPInN4sv9settSAP/pub?output=xlsx";
-
+  var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQiTsu2fPSVcXHmOLfjBcYB1noQ_L3K2HFQjODIRuxJCIb7If07Pws9QrBmKeav_OaCyXi3AzVEb9bf/pub?output=xlsx";
+ 
   return fetch(url).then((res) => {
     /* get the data as a Blob */
     if(!res.ok) throw new Error("fetch failed");

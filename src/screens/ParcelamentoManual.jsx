@@ -40,12 +40,6 @@ const ParcelamentoManual = ({ taxas }) => {
 
   return (
     <>
-      <ListHeader
-        disableInfoButton
-        backButtonFunction={() => {
-          window.location.href = "/lista";
-        }}
-      />
       <div
         className="container"
         style={{
@@ -100,7 +94,7 @@ const ParcelamentoManual = ({ taxas }) => {
 
         <div className="pb-4">
           {/* Débito a vista */}
-          <Parcela valor={value} numero={0} />
+          <Parcela valor={value*0.985} numero={0} />
 
           {/* Demais parcelas */}
           {taxasArray.map((item, index) => {

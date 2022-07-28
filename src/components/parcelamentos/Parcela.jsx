@@ -16,7 +16,7 @@ class Parcela extends Component {
           <div className="d-flex flex-row">
             {numero === 0 ? (
               <span style={{ color: colors.roxoClaro, fontSize: isBrowser ? 27 : 20, }}>
-                Débito à vista
+                PIX ou Dinheiro
               </span>
             ) : (
               <>
