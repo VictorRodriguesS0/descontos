@@ -93,7 +93,7 @@ const ParcelamentoManual = ({ taxas }) => {
 
         <div className="pb-4">
           {/* Débito a vista */}
-          <Parcela valor={value*0.985} numero={0} />
+          <Parcela valor={value} numero={0} />
 
           {/* Demais parcelas */}
           {taxasArray.map((item, index) => {
